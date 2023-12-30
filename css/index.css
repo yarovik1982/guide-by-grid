@@ -109,3 +109,8 @@ section {
     font-size: 8px;
   }
 }
+@media (max-width: 320px) {
+  pre {
+    font-size: 6px;
+  }
+}
