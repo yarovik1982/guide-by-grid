@@ -11,3 +11,14 @@ const showStyle = () => {
    })
 }
 showStyle()
+
+const showWidthDevise = () => {
+   const el = document.createElement('div')
+   el.classList.add('width-devise')
+   const body = document.querySelector('body')
+   const w = window.innerWidth
+   el.innerHTML = `ширина экрана: ${w}`
+   body.append(el)
+
+}
+showWidthDevise()

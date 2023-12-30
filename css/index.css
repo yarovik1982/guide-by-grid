@@ -81,6 +81,21 @@ section {
   grid-template-rows: repeat(3, 100px);
 }
 
+.width-devise {
+  position: fixed;
+  width: fit-content;
+  height: 40px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  font-size: 1rem;
+  color: #ccc;
+  padding: 0 8px;
+}
+
 @media (max-width: 424px) {
   body {
     font-size: 9px;
